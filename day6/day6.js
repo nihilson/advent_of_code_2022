@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 console.log("Day6");
 
-function partOne() {
+function day6() {
 
 fs.readFile('day6.input', (err, input) => {
     var text = input.toString();
@@ -60,4 +60,4 @@ function findMarkerTwo(charArray){
     console.log('Characters Processed = ' + markerPosition);
 }
 
-partOne();
+day6();
